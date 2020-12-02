@@ -1,0 +1,30 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Leer mas</title>
+</head>
+
+<body>
+    <div class="formulario">
+        <section id="banner">
+            <img src="img/banner.jpg">
+            <form action="datosLeer.php" method="post">
+                <label for="nombre">Ingresa tu nombre:</label>
+                <input type="text" placeholder="Escribe tu nombre" name="nombre" id="nombre">
+                <label for="anime"><br />
+                    Anime favorito:</label>
+                <input type="text" name="anime" id="Escribe tu anime favorito" placeholder="Anime" />
+                <label for="Comentario"><br />
+                    Escribe tu comentario sobre la pagina:<br />
+                </label>
+                <textarea name="Comentario" id="Comentario" cols="45" rows="5"></textarea>
+            </form>
+    </div>
+</body>
+
+</html>
